@@ -1,4 +1,5 @@
-# Halifax Foodie
+# Halifax Foodie 
+
 
 ## Name
 
@@ -6,9 +7,15 @@ Halifax Foodie
 
 ## Description
 
-The Project is a cloud-based Serverless web page for storing and visualizing recipes.
+The Project is a cloud-based Serverless web page for storing and visualizing recipe.
 
-## Tools
+## Stable branch
+
+
+
+
+## Tech Stack
+
 1. React JS
 2. AWS Cognito
 3. AWS Lambda
@@ -18,27 +25,24 @@ The Project is a cloud-based Serverless web page for storing and visualizing rec
 7. GCP DataStudio
 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Take a pull from the main branch using "git pull origin main" command.
+2. Open the webpage from EC2 instance and register/sign-in the webpage.
+3. Users can post feedback of the restaurants using the form link and it gets stored in the DynamoDB.
+4. Visualized reviews can be using DataStudio.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Roadmap
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Release 1.1 - 22 April 2022
 
 
-### Deployment
 
-Deployed in AWS EC2
+## Authors and acknowledgment
+
+Aishwarya Natarajan - as419275
+
+
+
+
